@@ -1,0 +1,16 @@
+{
+  "name": "pr-comment-action",
+  "version": "1.0.0",
+  "description": "GitHub Action to comment on PRs.",
+  "author": "@chanonroy",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build index.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.2"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5"
+  }
+}
