@@ -28,6 +28,7 @@ jobs:
       - name: Comment PR
         uses: chanonroy/pr-comment-action@master
         with:
-          message: 'Example of message !'
+          message: 'Hello world'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+
